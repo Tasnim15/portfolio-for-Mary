@@ -201,3 +201,10 @@ margin: 50px 0;
 .download-cv button{
     padding: 17px;
 }
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
