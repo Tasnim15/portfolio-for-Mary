@@ -1,7 +1,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+.header{
+    background-color: #FFF8F3;;
+}
 .text-primary {
 
     color: #FD6E0A;
@@ -11,6 +13,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
 }
 
 /* Immediate children of nav will be flex items */
@@ -47,4 +50,12 @@ nav a {
 color: white;
 font-weight: 700;
 padding: 15px 3fpx;
+}
+.banner{
+    padding: 50px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
